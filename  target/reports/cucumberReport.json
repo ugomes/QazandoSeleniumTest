@@ -1,0 +1,76 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Visualizar código de desconto",
+        "description": "",
+        "id": "receber-desconto-da-qazando;visualizar-código-de-desconto",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2866580700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que estou no site da qazando",
+            "match": {
+              "location": "DescontoStep.que_estou_no_site_da_qazando()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 167756500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencho meu email",
+            "match": {
+              "location": "DescontoStep.preencho_meu_email()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 68328700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "dou enter em ganhar cupom",
+            "match": {
+              "location": "DescontoStep.dou_enter_em_ganhar_cupom()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 41120700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "eu vejo o código de desconto",
+            "match": {
+              "location": "DescontoStep.verificar_desconto()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Receber Desconto da Qazando",
+    "description": "Eu como usuário da Qazando\r\nQuero receber um cupom de desconto\r\nPara comprar um curso com valor reduzido",
+    "id": "receber-desconto-da-qazando",
+    "keyword": "Funcionalidade",
+    "uri": "desconto.feature"
+  }
+]
